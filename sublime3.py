@@ -1,5 +1,9 @@
-n=int(input('Enter the number\n'))
-if n%2==0:
-  print('Number',n,'is even')
-else:
-  print('Number',n,'is odd')
+print('Enter 10 number\n')
+i=0
+sum=0
+while i<10:
+	n=int(input())
+	sum=sum+n
+	i=i+1
+
+print("The Sum of 10 numbers is ",sum)
