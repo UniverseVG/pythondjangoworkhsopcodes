@@ -1,0 +1,8 @@
+n1=int(input('Enter marks of subject 1\n'))
+n2=int(input('Enter marks of subject 2\n'))
+n3=int(input('Enter marks of subject 3\n'))
+n4=int(input('Enter marks of subject 4\n'))
+n5=int(input('Enter marks of subject 5\n'))
+print('Marks of 5 subjects are',n1,n2,n3,n4,n5)
+p=float(((n1+n2+n3+n4+n5)/500)*100)
+print('perncentage is ',p)
