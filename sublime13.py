@@ -1,0 +1,7 @@
+f=open('ctext.txt','w')
+s=input('Enter the text of your wish\n')
+f.write(s)
+r=len(s)
+f.write('\nThe number of letters in file is ')
+f.write(str(r))
+f.close()

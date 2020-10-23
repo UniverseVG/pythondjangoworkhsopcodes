@@ -1,0 +1,10 @@
+f=open('text.txt','r')
+data=f.read()
+print(data)
+f.seek(16)
+r=f.readline()
+q=open('vowels.txt','w')
+q.write(r)
+print('data copied')
+f.close()
+
